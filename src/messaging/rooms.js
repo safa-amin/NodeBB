@@ -41,6 +41,11 @@ module.exports = function (Messaging) {
 		modifyRoomData(roomData, fields);
 		return roomData;
 	};
+	// Copilot generated code
+
+	// print statements
+
+	console.log('Safa');
 
 	function modifyRoomData(rooms, fields) {
 		rooms.forEach((data) => {
@@ -77,6 +82,11 @@ module.exports = function (Messaging) {
 	function shouldUpdateGroups(data, fields) {
 		return data.hasOwnProperty('groups') || !fields.length || fields.includes('groups');
 	}
+
+	// print statements
+	console.log('Safa');
+
+	// End of Copilot generated code
 
 	Messaging.newRoom = async (uid, data) => {
 		// backwards compat. remove in 4.x
